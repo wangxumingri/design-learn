@@ -1,4 +1,4 @@
-package archetypal;
+package archetypal.cloneable;
 
 public class ExInfo implements Cloneable{
     private String type;

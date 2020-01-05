@@ -1,4 +1,4 @@
-package archetypal;
+package archetypal.cloneable;
 
 public class Student implements Cloneable{
     private String id;
@@ -46,7 +46,7 @@ public class Student implements Cloneable{
 
     @Override
     public String toString() {
-        return super.hashCode()+"Student{" +
+        return super.hashCode()+":Student{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", gender=" + gender +

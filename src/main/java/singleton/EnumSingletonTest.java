@@ -1,6 +1,6 @@
 package singleton;
 
-import archetypal.Student;
+import archetypal.cloneable.Student;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
