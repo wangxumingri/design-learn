@@ -11,6 +11,9 @@ public class Client {
         huaWeiNonSmartPhone.unlock();
 
 
+        System.out.println(Phone.class.isAssignableFrom(NonSmartPhone.class));
+        System.out.println(Phone.class.isAssignableFrom(SmartPhone.class));
 
+        System.out.println(Phone.class.isAssignableFrom(Phone.class));
     }
 }
